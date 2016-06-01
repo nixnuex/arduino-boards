@@ -26,5 +26,6 @@
           "toolsDependencies": [],
           "name": "eHaJo AVR Boards",
         },
+	],
   ]
 }
