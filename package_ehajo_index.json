@@ -18,20 +18,20 @@
 			},
 			"url": "https://github.com/ehajo/arduino-boards/raw/master/boards/ehajo-avr-1.0.0.tar.bz2",
 			"checksum": "SHA-256:af1dc6daff8a302e9432dddca9628d32b5371d52b91baa65a1139e438388188f",
+			"name": "eHaJo AVR Boards",
 			"version": "1.0.0",
 			"architecture": "avr",
 			"archiveFileName": "ehajo-avr-1.0.0.tar.bz2",
+			"size": "29697",
+			"toolsDependencies": [],
 			"boards":
 			[
 				{
 					"name": "eHaJo Gscheiduino"
 				}
-			],
-			"size": "29697",
-			"toolsDependencies": [],
-			"name": "eHaJo AVR Boards",
-		},
-		],
+			]
+		}
+		]
 	}
 	]
 }
