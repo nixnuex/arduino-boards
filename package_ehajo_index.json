@@ -3,7 +3,7 @@
 	{  
 		"maintainer":"HaJo",
 		"help":{  
-			"online":"http://dokuwiki.eHaJo.de"
+			"online":"http://dokuwiki.ehajo.de/artikel:arduino-boardmanager"
 		},
 		"websiteURL": "http://www.eHaJo.de", 
 		"platforms": [  
