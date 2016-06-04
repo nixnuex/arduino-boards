@@ -1,37 +1,50 @@
-{
-	"packages": 
-	[
-	{
-		"maintainer": "HaJo",
-		"help":
-		{
-			"online": "http://www.eHaJo.de"
+{  
+	"packages":[  
+	{  
+		"maintainer":"HaJo",
+		"help":{  
+			"online":"http://dokuwiki.eHaJo.de"
 		},
-		"websiteURL": "http://www.eHaJo.de",
-		"platforms":
-		[
-		{
-			"category": "eHaJo",
-			"help":
-			{
-				"online": "http://www.eHaJo.de"
+		"websiteURL": "http://www.eHaJo.de", 
+		"platforms": [  
+		{  
+			"category":"Contributed",
+			"name":"eHaJo AVR Boards",
+			"url":"https://github.com/ehajo/arduino-boards/blob/master/boards/ehajo-avr-1.0.0.tar.bz2",
+			"checksum":"SHA-256:3f8b0fbf857c0a17ef12cc7199646ee293e9d0af03a8852191a82ed013867bf7",
+			"help":{  
+				"online":"http://dokuwiki.eHaJo.de"
 			},
-			"url": "https://github.com/ehajo/arduino-boards/raw/master/boards/ehajo-avr-1.0.0.tar.bz2",
-			"checksum": "SHA-256:af1dc6daff8a302e9432dddca9628d32b5371d52b91baa65a1139e438388188f",
-			"name": "eHaJo AVR Boards",
-			"version": "1.0.0",
-			"architecture": "avr",
-			"archiveFileName": "ehajo-avr-1.0.0.tar.bz2",
-			"size": "29697",
-			"toolsDependencies": [],
-			"boards":
-			[
-				{
-					"name": "eHaJo Gscheiduino"
-				}
-			]
+			"version":"1.0.0",
+			"architecture":"avr",
+			"archiveFileName":"ehajo-avr-1.0.0.tar.bz2",
+			"boards": [  
+				{"name":"eHaJo Gscheiduino"}
+			],
+			"toolsDependencies": [
+				{ "packager": "arduino", "version": "4.8.1-arduino5", "name": "avr-gcc"},
+				{ "packager": "eHaJo", "version": "6.3.0", "name": "avrdude"} 
+			],
+			"size":"29697"
 		}
-		]
+		],
+		"tools": [
+		{
+			"version": "6.3.0",
+			"name": "avrdude",
+			"systems": [
+            {
+              "url": "https://github.com/ehajo/arduino-boards/blob/master/tools/avrdude-6.3.0-ehajo-i686-mingw32.zip",
+			  "checksum": "SHA-256:d35ae462b87a7f0e78f24bf985f39d8792b224396ad134b435972677d93c663d",
+              "host": "i686-mingw32",
+              "archiveFileName": "avrdude-6.3.0-ehajo-i686-mingw32.zip",
+              "size": "261876"
+            }
+			]
+        }
+		],
+		"name":"eHaJo",
+		"email":"info@ehajo.de"
 	}
 	]
 }
