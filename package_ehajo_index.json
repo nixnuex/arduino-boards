@@ -21,8 +21,7 @@
 				{"name":"eHaJo Gscheiduino"}
 			],
 			"toolsDependencies": [
-				{ "packager": "arduino", "version": "4.8.1-arduino5", "name": "avr-gcc"},
-				{ "packager": "eHaJo", "version": "6.3.0", "name": "avrdude"} 
+				{ "packager": "arduino", "version": "4.8.1-arduino5", "name": "avr-gcc"}
 			],
 			"size":"29697"
 		}
